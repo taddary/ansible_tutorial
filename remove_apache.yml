@@ -10,5 +10,7 @@
 
   - name: remove apache2 package
     yum:
-      name: httpd
+      name: 
+        - httpd
+        - php
       state: absent
